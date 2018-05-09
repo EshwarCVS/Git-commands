@@ -6,8 +6,14 @@ To push into a branch:
 
 //Get to the required directory and enter the following commands.
 
+// To know which file is in which state use the following command
+
 git status
 
+// To add file
+
+git add <filename>
+  
 git checkout
 
 git checkout -b branch
