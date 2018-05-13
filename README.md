@@ -4,25 +4,15 @@ Open Git Bash Terminal
 
 //Get to the required directory and enter the following commands.
 
-// To initialize git
+git init    // To initialize git
 
-git init
+git clone <URL>   //To clone any project
 
-//To clone any project
+git status    // To know which file is in which state use the following command and to knonw changes that are not staged for commit
 
-git clone <URL>
+git diff -- staged    //To compare staged changes to last commit
 
-// To know which file is in which state use the following command and to knonw changes that are not staged for commit
-
-git status
-
-//To compare staged changes to last commit
-
-git diff -- staged
-
-// To add file
-
-git add <filename>
+git add <filename>    // To add file
   
 git checkout
 
@@ -30,33 +20,26 @@ git checkout -b branch
 
 git reset
 
-//To know all the unstaged changes in the files from the last commit
-
-git diff
+git diff    //To know all the unstaged changes in the files from the last commit
 
 git checkout package.json
 
-//TO fetch the information that a person has you dont
+git fetch    //To fetch the information that a person has you dont
 
-git fetch
+git remote    //To know which remote server you have configured
 
-//To know which remote server you have configured
-
-git remote
-
-//(can use 'git add' or 'git commit -a')
-
-git add .
+git add .     //(can use 'git add' or 'git commit -a')
 
 git commit -m "Type your message"
 
-//When you want to push your repo upstrea,
-git push -u origin branch
+git push -u origin branch   //When you want to push your repo upstream
 
-// To remove files from your directory
+git rm    // To remove files from your directory
 
-git rm 
+git log   // To know the log entries
 
-// To know the log entries
+**To push into github repo**
 
-git log
+Enter into directory on you local system
+
+[Follow these steps](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
