@@ -43,3 +43,13 @@ git log   // To know the log entries
 Enter into directory on you local system
 
 [Follow these steps](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
+
+- git checkout -b branchname
+
+- git status
+
+- git add .
+
+- git commit -m "type your message"
+
+- git push
