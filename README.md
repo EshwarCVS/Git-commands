@@ -26,6 +26,8 @@ git checkout package.json
 
 git fetch    //To fetch the information that a person has you dont
 
+git remote add origin git@bitbucket.org:[user]/[my-repo].git
+
 git remote    //To know which remote server you have configured
 
 git add .     //(can use 'git add' or 'git commit -a')
@@ -38,3 +40,8 @@ git rm    // To remove files from your directory
 
 git log   // To know the log entries
 
+When there are any works done locally :
+
+git pull --rebase origin master
+
+git push origin master
