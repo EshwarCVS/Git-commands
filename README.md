@@ -8,7 +8,7 @@ To learn git step by step - http://git-school.github.io/visualizing-git/
 
 **Open Git Bash Terminal**
 
-//Get to the required directory and enter the following commands.
+Get to the required directory and enter the required commands.
 
 - git init    // To initialize git
 
