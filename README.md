@@ -1,8 +1,10 @@
 # Git-learn
 
-To learn branching - https://learngitbranching.js.org/
+[Git branching](https://learngitbranching.js.org/)
 
 To learn git step by step - http://git-school.github.io/visualizing-git/
+
+[Git cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
 
 # Git-commands
 
